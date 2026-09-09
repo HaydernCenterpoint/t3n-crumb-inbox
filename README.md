@@ -33,6 +33,8 @@ See [BUGS.md](./BUGS.md).
 
 ## Superteam fields (human)
 
+Paste [GOOGLE_DOC.md](./GOOGLE_DOC.md) into a public Google Doc, add the DID screenshot, then submit.
+
 - Email
 - DID from `quickstart.ts` output
 - Continue running? **Hand over to Terminal 3 to maintain**, with this repo as the handover pack.

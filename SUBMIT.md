@@ -14,5 +14,5 @@ You:
    - Email
    - DID from the screenshot
    - Hand over to Terminal 3 to maintain
-   - Link = this GitHub repo (README counts as the public writeup; paste the same text into a Google Doc if they insist)
+   - Link = this GitHub repo. Paste `GOOGLE_DOC.md` into a public Google Doc (listing requires a Google Doc).
 4. Optional bonus: tweet the repo and tag @terminal3io
