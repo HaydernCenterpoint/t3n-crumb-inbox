@@ -4,7 +4,7 @@ Source: https://docs.terminal3.io/developers/adk/get-started/quickstart and the 
 
 ## 1. Skill sample duplicates `fetchTrustedManifest` and `trustAnchor`
 
-The AI-assistant skill's `quickstart.ts` imports `fetchTrustedManifest` twice and sets `trustAnchor` twice on `T3nClient`. A first-timer following the skill literally gets a confusing duplicate. The manual quickstart page is cleaner.
+**Still live 2026-09-09T15:01Z.** The AI-assistant skill's `quickstart.ts` (docs accordion) imports `fetchTrustedManifest` twice and sets `trustAnchor` twice on `T3nClient`. A first-timer following the skill literally gets a confusing duplicate. The manual quickstart page is cleaner.
 
 ## 2. WASM loading fails under Next.js / Vite / Webpack
 

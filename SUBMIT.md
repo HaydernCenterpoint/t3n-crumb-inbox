@@ -14,5 +14,5 @@ You:
    - Email
    - DID from the screenshot
    - Hand over to Terminal 3 to maintain
-   - Link = this GitHub repo. Paste `GOOGLE_DOC.md` into a public Google Doc (listing requires a Google Doc).
+   - Link = this GitHub repo. Paste `GOOGLE_DOC.md` into a public Google Doc (listing requires a Google Doc). Public gist of the same pack: https://gist.github.com/HaydernCenterpoint/0fed192d40541b69b072e458427d68b6 — the gist is **not** a substitute; Superteam still wants a Google Doc.
 4. Optional bonus: tweet the repo and tag @terminal3io

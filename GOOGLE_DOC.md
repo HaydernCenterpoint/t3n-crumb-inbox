@@ -30,9 +30,10 @@ The agent DID must be a **second** key from the same claim page. Reusing the ten
 
 ## Bugs found while following the docs
 
-Source: https://docs.terminal3.io/developers/adk/get-started/quickstart and https://docs.terminal3.io/developers/adk/support/ai-coding-assistants
+Source: https://docs.terminal3.io/developers/adk/get-started/quickstart and https://docs.terminal3.io/developers/adk/support/ai-coding-assistants  
+**Re-checked live 2026-09-09T15:01Z** — the skill file still has the duplicate.
 
-1. **Skill sample duplicates `fetchTrustedManifest` and `trustAnchor`.** The AI-assistant skill `quickstart.ts` imports `fetchTrustedManifest` twice and sets `trustAnchor` twice on `T3nClient`. The manual quickstart page is cleaner.
+1. **Skill sample duplicates `fetchTrustedManifest` and `trustAnchor`.** The AI-assistant skill `quickstart.ts` still imports `fetchTrustedManifest` twice and sets `trustAnchor` twice on `T3nClient` (live accordion on `/developers/adk/support/ai-coding-assistants` at 15:01 UTC). The manual quickstart page is cleaner.
 2. **WASM loading fails under Next.js / Vite / Webpack.** Docs already warn. Workaround: run `tsx quickstart.ts` as a plain Node script first.
 3. **Agent DID credits start at zero.** Authenticating the tenant key and treating that DID as the agent hits `InsufficientCreditError`. The agent needs its own claim-page key. This belongs on the first success-path checklist.
 4. **`trustAnchor` is required and throws at construction.** Omitting it does not fail later at handshake. The copy-paste sample still needs the field on the first try.
